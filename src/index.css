@@ -1,0 +1,35 @@
+.light-theme {
+  --bg-color: linear-gradient(135deg, #e0f7fa, #f1f0ff);
+  --text-color: #000000d4;
+  --nav-bg-color: #42e1f6 !important;
+  --nav-text-color: white !important;
+  --button-bg-color: #ffffff;
+  --button-text-color: #000000;
+  --h-color: #42e1f6 !important;
+}
+.dark-theme {
+  --bg-color: linear-gradient(145deg, #3a3a3a 0%, #111111 100%);
+  --text-color: #ffffff;
+  --nav-bg-color: #ffffff !important;
+  --nav-text-color: #000000d5 !important;
+  --button-bg-color: #333333;
+  --button-text-color: #ffffff;
+  --h-color: #42e1f6 !important;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  background: var(--bg-color);
+  overflow-y: scroll;
+}
+nav,
+footer {
+  background: var(--nav-bg-color) !important;
+  color: var(--nav-text-color) !important;
+  font-weight: 500;
+  width: 100vw !important;
+}
+h2 {
+  color: var(--h-color) !important ;
+}

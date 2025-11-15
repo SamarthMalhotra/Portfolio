@@ -1,0 +1,72 @@
+.homeBox {
+  margin-top: 5rem;
+  height: 80vh;
+  min-height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+
+.card {
+  max-width: 35rem;
+  border: 3px solid white;
+  border-radius: 15px;
+  padding: 1.5rem;
+}
+
+.card p {
+  line-height: 2rem !important;
+}
+
+/* IMAGE - Slightly Larger */
+.responsiveImage {
+  min-width: 16rem; /* increased */
+  max-width: 25rem;
+  height: 60vh;
+}
+
+.responsiveImage img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+/* ------------------------- */
+/* MOBILE VIEW (up to 768px) */
+/* ------------------------- */
+@media (max-width: 768px) {
+  .homeBox {
+    margin-top: 5rem;
+    min-height: 90vh;
+  }
+
+  .card {
+    font-size: 1rem;
+    max-width: 22rem !important;
+    margin: 0 !important;
+    text-align: center;
+  }
+
+  .card p {
+    line-height: 1.7rem !important;
+  }
+
+  .responsiveImage {
+    max-width: 70vw; /* slightly larger on mobile */
+    height: auto;
+    margin-top: 1rem !important;
+  }
+}
+
+/* ------------------------- */
+/* LAPTOP / DESKTOP VIEW     */
+/* ------------------------- */
+@media (min-width: 1024px) {
+  .responsiveImage {
+    min-width: 17rem; /* slightly larger */
+    max-width: 22rem; /* slightly larger */
+  }
+}

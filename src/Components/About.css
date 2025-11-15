@@ -1,0 +1,79 @@
+.aboutBox {
+  margin-top: 1rem;
+  height: auto;
+  padding: 0.7rem;
+}
+
+/* ABOUT HEADING */
+.about {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+/* CARD STYLING */
+.card {
+  max-width: 35rem;
+  border: 3px solid white;
+  border-radius: 15px;
+}
+
+.card p {
+  line-height: 2rem !important;
+}
+
+/* IMAGE CONTAINER */
+.responsiveAboutImage {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutImg {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 10px;
+}
+
+/* 📱 MOBILE & TABLET RESPONSIVE */
+@media (max-width: 768px) {
+  .aboutBox {
+    margin-top: 4rem;
+    padding: 1rem;
+  }
+
+  .about {
+    margin-bottom: 2rem;
+  }
+
+  .card {
+    max-width: 100% !important;
+    font-size: 1rem;
+  }
+
+  .card p {
+    line-height: 1.7rem !important;
+  }
+
+  .responsiveAboutImage {
+    width: 100%;
+    margin-top: 1rem !important;
+  }
+
+  .aboutImg {
+    max-width: 260px;
+  }
+}
+
+/* 💻 LARGE SCREEN IMPROVEMENT */
+@media (min-width: 992px) {
+  .aboutBox {
+    height: 90vh;
+  }
+
+  .card {
+    max-width: 32rem;
+  }
+
+  .aboutImg {
+    max-width: 340px;
+  }
+}

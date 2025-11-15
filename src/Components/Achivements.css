@@ -1,0 +1,11 @@
+.carouselWrapper {
+  height: 80vh;
+  margin: auto;
+}
+
+.carouselImg {
+  width: 100vw;
+  height: 70vh; /* prevents huge images on laptop */
+  object-fit: contain;
+  border-radius: 10px;
+}
