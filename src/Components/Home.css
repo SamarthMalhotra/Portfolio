@@ -40,7 +40,7 @@
 @media (max-width: 768px) {
   .homeBox {
     margin-top: 5rem;
-    min-height: 90vh;
+    height: 80vh;
   }
 
   .card {
@@ -55,7 +55,7 @@
   }
 
   .responsiveImage {
-    max-width: 70vw; /* slightly larger on mobile */
+    max-width: 55vw; /* slightly larger on mobile */
     height: auto;
     margin-top: 1rem !important;
   }
