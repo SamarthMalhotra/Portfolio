@@ -9,6 +9,7 @@
   width: 100%;
   border-radius: 16px;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+  text-align: left !important;
 }
 
 /* Hover effect */
