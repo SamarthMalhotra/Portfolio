@@ -39,7 +39,7 @@
 /* ------------------------- */
 @media (max-width: 768px) {
   .homeBox {
-    margin-top: 7vh;
+    margin-top: 8vh;
     height: 90vh;
   }
 
@@ -55,7 +55,7 @@
   }
 
   .responsiveImage {
-    max-width: 55vw; /* slightly larger on mobile */
+    max-width: 65vw; /* slightly larger on mobile */
     height: 50%;
     margin-top: 1rem !important;
   }

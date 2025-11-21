@@ -5,8 +5,8 @@ import academic from "./AcademicsData";
 
 function Academics() {
   return (
-    <div className="academicsDiv w-100 p-3">
-      <h2 className="text-center mb-4 mt-lg-5">
+    <div className="academicsDiv w-100 p-2">
+      <h2 className="text-center mb-4 mt-lg-2">
         <span className="header">ACADEMICS</span>
       </h2>
 

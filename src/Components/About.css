@@ -36,12 +36,12 @@
 /* 📱 MOBILE & TABLET RESPONSIVE */
 @media (max-width: 768px) {
   .aboutBox {
-    margin-top: 5rem;
+    margin-top: 4.25rem;
     padding: 1rem;
   }
 
   .about {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   .card {
