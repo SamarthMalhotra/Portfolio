@@ -39,8 +39,8 @@
 /* ------------------------- */
 @media (max-width: 768px) {
   .homeBox {
-    margin-top: 5rem;
-    height: 80vh;
+    margin-top: 4vh;
+    height: 90vh;
   }
 
   .card {
@@ -56,7 +56,7 @@
 
   .responsiveImage {
     max-width: 55vw; /* slightly larger on mobile */
-    height: auto;
+    height:50%;
     margin-top: 1rem !important;
   }
 }
