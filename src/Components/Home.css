@@ -1,28 +1,39 @@
+/* ---------------------------------- */
+/* MAIN CONTAINER */
+/* ---------------------------------- */
 .homeBox {
   height: 100vh;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  gap: 2rem;
+  gap: 0;
+  padding: 0.5rem;
 }
 
+/* ---------------------------------- */
+/* CARD SECTION */
+/* ---------------------------------- */
 .home-card {
+  font-size: 1.25rem;
   max-width: 35rem;
   border: 3px solid white;
   border-radius: 15px;
   padding: 1.5rem;
+  background: #f8f9fa;
 }
 
 .home-card p {
   line-height: 2rem !important;
 }
 
-/* IMAGE - Slightly Larger */
+/* ---------------------------------- */
+/* IMAGE SECTION */
+/* ---------------------------------- */
 .responsiveImage {
-  min-width: 16rem; /* increased */
+  min-width: 16rem;
   max-width: 25rem;
-  height: 70vh;
+  height: auto;
 }
 
 .responsiveImage img {
@@ -37,39 +48,55 @@
 /* ------------------------- */
 @media (max-width: 768px) {
   .homeBox {
-    height: 100vh;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    gap: 1rem;
+    height: 104vh;
+    align-items: center;
+    padding-top: 2rem;
   }
 
   .home-card {
-    max-width: 25rem;
-    border: 1px solid white;
-    border-radius: 12px;
-    margin: 2%;
-    margin-top: 20% !important ;
-    padding: 1rem;
-    font-size: 1.2rem;
+    max-width: 95%;
+    border-width: 2px;
+    margin-top: 3rem !important;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
   }
 
   .home-card p {
-    line-height: 1.7rem !important;
+    line-height: 1.6rem !important;
   }
 
   .responsiveImage {
-    max-width: 67vw; /* slightly larger on mobile */
-    height: 50%;
+    max-width: 75vw;
+    margin: 0 auto;
   }
 }
 
 /* ------------------------- */
-/* LAPTOP / DESKTOP VIEW     */
+/* TABLET VIEW (768px - 1024px) */
+/* ------------------------- */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .homeBox {
+    height: auto;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .home-card {
+    max-width: 30rem;
+  }
+
+  .responsiveImage {
+    max-width: 20rem;
+  }
+}
+
+/* ------------------------- */
+/* DESKTOP VIEW (1024px+) */
 /* ------------------------- */
 @media (min-width: 1024px) {
   .responsiveImage {
-    min-width: 17rem; /* slightly larger */
-    max-width: 22rem; /* slightly larger */
+    min-width: 18rem;
+    max-width: 23rem;
   }
 }

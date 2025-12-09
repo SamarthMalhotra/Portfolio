@@ -1,5 +1,7 @@
 .academicsDiv {
   height: 100vh;
+  font-size: 1rem;
+  padding-top: 5rem !important;
 }
 /* Full-width, clean card */
 .academic-card {
@@ -25,13 +27,13 @@
 /* Mobile View */
 @media (max-width: 768px) {
   .academic-card {
+    font-size: 0.9rem;
     max-width: 95%;
-    margin: 2rem auto;
     height: 12% !important;
     padding: 0.5px !important;
   }
   .academicsDiv {
-    margin-top: 6rem;
-    height: 80vh !important;
+    height: 99vh !important;
+    padding: 1rem;
   }
 }

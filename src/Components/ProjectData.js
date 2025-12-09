@@ -8,7 +8,7 @@ let projectList = [
     description: [
       "Developed a chatbot web app using React.js (frontend), Node.js and Express.js (backend), and MongoDB as the database.",
       "Integrated Google Gemini API for generating dynamic AI responses.",
-      "Implemented authentication and authorization using Passport.js and JSON Web Tokens (JWT).",
+      "I used JWT Token for Authentication.",
     ],
     video: "",
   },
@@ -17,10 +17,10 @@ let projectList = [
     image:
       "https://res.cloudinary.com/duryxhwcp/image/upload/v1763114261/Wanderlust_b5vlqu.jpg",
     link: "https://wanderlust-major-project-8n6g.onrender.com/listings",
-    title: "Wanderlust (Travel Accommodation Web App like Airbnb)",
+    title: "Wanderlust (Travel Accommodation Web App)",
     description: [
       "Build a full-stack travel accommodation web application using Html, CSS, Bootstrap and JavaScript for the frontend and Node.js with Express.js for the backend.",
-      "Used RESTful APIs, Passport.js for Authentication, Joi for schema validation and Mapbox for location-based features.",
+      "Used Passport.js for Authentication, Joi for schema validation and Mapbox for location-based features.",
     ],
     video: "",
   },

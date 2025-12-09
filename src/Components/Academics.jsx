@@ -14,7 +14,7 @@ function Academics() {
         {academic.map((data, index) => (
           <div className="card academic-card shadow-sm w-100" key={index}>
             <div className="card-body">
-              <h5 className="card-title fw-bold">{data.title}</h5>
+              <h5 className="card-title fs-5">{data.title}</h5>
 
               <p className="card-text mt-1">
                 <b>Institution:</b> {data.institute}

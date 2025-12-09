@@ -6,22 +6,27 @@
   --button-bg-color: #ffffff;
   --button-text-color: #000000;
   --h-color: #42e1f6 !important;
+  --link: black;
 }
 .dark-theme {
-  --bg-color: linear-gradient(145deg, #3a3a3a 0%, #111111 100%);
+  --bg-color: rgba(25, 25, 25, 1);
   --text-color: #ffffff;
   --nav-bg-color: #ffffff !important;
   --nav-text-color: #000000d5 !important;
   --button-bg-color: #333333;
   --button-text-color: #ffffff;
   --h-color: #42e1f6 !important;
+  --link: #d0d0d0;
 }
 body::-webkit-scrollbar {
   display: none;
 }
 body {
-  background: var(--bg-color);
+  background: var(--bg-color) !important;
   overflow-y: scroll;
+}
+.Link {
+  color: var(--link) !important;
 }
 nav,
 footer {

@@ -18,7 +18,7 @@ const Achivements = () => {
               <div className="carousel-item active">
                 <div className="carousel-image-wrapper">
                   <img
-                    src="https://res.cloudinary.com/duryxhwcp/image/upload/v1765273473/Achivement3_odnrgd.jpg"
+                    src="https://res.cloudinary.com/duryxhwcp/image/upload/v1765305170/Achivement2_nubas9.jpg"
                     alt="slide1"
                   />
                 </div>
@@ -27,7 +27,7 @@ const Achivements = () => {
               <div className="carousel-item">
                 <div className="carousel-image-wrapper">
                   <img
-                    src="https://res.cloudinary.com/duryxhwcp/image/upload/v1765273473/Achivement2_sbxbz4.jpg"
+                    src="https://res.cloudinary.com/duryxhwcp/image/upload/v1765304519/Achivement3_jdnix3.jpg"
                     alt="slide2"
                   />
                 </div>
@@ -36,7 +36,7 @@ const Achivements = () => {
               <div className="carousel-item">
                 <div className="carousel-image-wrapper">
                   <img
-                    src="https://res.cloudinary.com/duryxhwcp/image/upload/v1765273552/Achivement1_e4u51v.jpg"
+                    src="https://res.cloudinary.com/duryxhwcp/image/upload/v1765303774/Achivement1_cgakc8.jpg"
                     alt="slide3"
                   />
                 </div>
@@ -44,12 +44,12 @@ const Achivements = () => {
             </div>
 
             <button
-              className="carousel-control-prev"
+              className="carousel-control-prev fw-bold text-black"
               type="button"
               data-bs-target="#myCarousel"
               data-bs-slide="prev"
             >
-              <span className="carousel-control-prev-icon"></span>
+              <span className="carousel-control-prev-icon fs-5"></span>
             </button>
 
             <button
