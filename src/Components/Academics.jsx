@@ -5,18 +5,18 @@ import academic from "./AcademicsData";
 
 function Academics() {
   return (
-    <div className="academicsDiv w-100 p-2">
-      <h2 className="text-center mb-4 mt-lg-2">
+    <div className="academicsDiv w-100 p-2 p-lg-5">
+      <h2 className="text-center mt-3">
         <span className="header">ACADEMICS</span>
       </h2>
-
-      <div className="d-flex flex-column align-items-center gap-4">
+      <br />
+      <div className="d-flex flex-column align-items-center gap-2">
         {academic.map((data, index) => (
           <div className="card academic-card shadow-sm w-100" key={index}>
             <div className="card-body">
               <h5 className="card-title fw-bold">{data.title}</h5>
 
-              <p className="card-text mt-2">
+              <p className="card-text mt-1">
                 <b>Institution:</b> {data.institute}
                 <br />
                 <b>Year:</b> {data.year}

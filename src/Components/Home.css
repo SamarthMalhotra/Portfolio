@@ -1,22 +1,20 @@
 .homeBox {
-  margin-top: 5rem;
-  height: 80vh;
-  min-height: 80vh;
+  height: 100vh;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
   gap: 2rem;
 }
 
-.card {
+.home-card {
   max-width: 35rem;
   border: 3px solid white;
   border-radius: 15px;
   padding: 1.5rem;
 }
 
-.card p {
+.home-card p {
   line-height: 2rem !important;
 }
 
@@ -24,7 +22,7 @@
 .responsiveImage {
   min-width: 16rem; /* increased */
   max-width: 25rem;
-  height: 60vh;
+  height: 70vh;
 }
 
 .responsiveImage img {
@@ -39,26 +37,29 @@
 /* ------------------------- */
 @media (max-width: 768px) {
   .homeBox {
-    margin-top: 10vh;
-    height: 90vh;
-    margin-bottom: 5rem;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 1rem;
   }
 
-  .card {
-    font-size: 1rem;
-    max-width: 22rem !important;
-    margin: 0 !important;
-    text-align: center;
+  .home-card {
+    max-width: 25rem;
+    border: 1px solid white;
+    border-radius: 12px;
+    margin: 3%;
+    margin-top: 20% !important ;
+    padding: 1rem;
   }
 
-  .card p {
+  .home-card p {
     line-height: 1.7rem !important;
   }
 
   .responsiveImage {
-    max-width: 65vw; /* slightly larger on mobile */
+    max-width: 67vw; /* slightly larger on mobile */
     height: 50%;
-    margin-top: 1rem !important;
   }
 }
 

@@ -72,22 +72,10 @@ function SkillBox() {
           <h4 className="skillTitle">SQL</h4>
         </div>
 
-        {/* Redux */}
-        <div className="skillItem card d-flex flex-row align-items-center">
-          <TbBrandRedux className="skillIcon" style={{ color: "blue" }} />
-          <h4 className="skillTitle">Redux Toolkit</h4>
-        </div>
-
         {/* GitHub */}
         <div className="skillItem card d-flex flex-row align-items-center">
           <IoLogoGithub className="skillIcon" style={{ color: "black" }} />
           <h4 className="skillTitle">GitHub</h4>
-        </div>
-
-        {/* VS Code */}
-        <div className="skillItem card d-flex flex-row align-items-center">
-          <VscVscode className="skillIcon" style={{ color: "blue" }} />
-          <h4 className="skillTitle">VS Code</h4>
         </div>
       </div>
     </div>

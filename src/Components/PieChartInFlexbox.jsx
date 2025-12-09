@@ -21,17 +21,17 @@ const margin = {
 
 export default function PieChartInFlexbox() {
   return (
-    <div className="mb-lg-2">
+    <div className="mb-lg-1 chartbox">
       <br />
       <br />
-      <h2 style={{ color: "#42e1f6", textAlign: "center", padding: "1rem" }}>
+      <h2 style={{ color: "#42e1f6", textAlign: "center", padding: "2rem" }}>
         Skills Chart
       </h2>
       <div
         style={{
           display: "flex",
           justifyContent: "center",
-          height: "70vh",
+          height: "65vh",
           alignItems: "center",
         }}
         className="chart"
@@ -42,7 +42,7 @@ export default function PieChartInFlexbox() {
           height={500}
           data={data}
           margin={margin}
-          style={{ backgroundColor: "white" }}
+          style={{ backgroundColor: "white", margin: "1rem" }}
         >
           <XAxis dataKey="name" stroke="#111111" />
           <YAxis />
@@ -50,16 +50,16 @@ export default function PieChartInFlexbox() {
           <Legend
             width={100}
             wrapperStyle={{
-              top: 20,
+              top: 25,
               right: 20,
               backgroundColor: "#ffffff",
               border: "1px solid #d5d5d5",
               borderRadius: 3,
-              lineHeight: "40px",
+              lineHeight: "50px",
             }}
           />
           <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
-          <Bar dataKey="uv" fill="#111111" barSize={25} />
+          <Bar dataKey="uv" fill="#111111" barSize={28} />
         </BarChart>
       </div>
     </div>

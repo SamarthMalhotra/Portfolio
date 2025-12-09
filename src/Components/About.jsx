@@ -6,11 +6,9 @@ function About() {
   return (
     <>
       <div className="aboutBox">
-        <br />
         <h2 className="about">ABOUT</h2>
-
-        <div className="d-flex flex-wrap justify-content-around align-items-center">
-          <div className="card text-dark bg-light mb-1 fs-5 p-1">
+        <div className="d-flex flex-wrap justify-content-around aboutflex">
+          <div className="card text-dark bg-light p-1 fs-5 fs-xs-1 about-card">
             <div className="card-body">
               <h5 className="card-title">Hi, I’m Samarth Malhotra</h5>
               <p className="card-text">
@@ -22,7 +20,7 @@ function About() {
             </div>
           </div>
 
-          <div className="responsiveAboutImage mt-4">
+          <div className="responsiveAboutImage mt-3">
             <img
               src="https://res.cloudinary.com/duryxhwcp/image/upload/v1761501603/Picture_1_3_po2d4f.png"
               alt="Candidate Image"

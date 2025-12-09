@@ -59,6 +59,11 @@ function NavBar() {
                 Skills
               </Link>
             </li>
+            <li className="nav-item">
+              <Link to="/projects" className="nav-link active">
+                Projects
+              </Link>
+            </li>
           </ul>
         </div>
         <span

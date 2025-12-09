@@ -14,7 +14,6 @@ function Header() {
       <Skill />
       <Project />
       <Achivements />
-      <Footer />
     </>
   );
 }

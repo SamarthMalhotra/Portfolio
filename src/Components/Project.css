@@ -1,6 +1,6 @@
 /* Page Layout */
 .project-container {
-  min-height: 100vh;
+  height: auto;
   padding-top: 3rem;
   padding-bottom: 3rem;
   display: flex;
@@ -8,34 +8,52 @@
   align-items: center;
 }
 
+.project-card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 1rem;
+  margin-bottom: 10rem !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  height: 60vh;
+}
+
+.projectBox {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  width: 90vw;
+  height: 70% !important;
+}
+
+.imageDiv {
+  height: 90% !important;
+  width: 40%;
+  margin-left: 1rem;
+}
+.projectDiv {
+  height: 90% !important;
+  width: 40%;
+  margin-left: 1rem;
+}
 .project-title {
   margin-bottom: 4rem !important;
+  margin-top: 1rem !important;
 }
 
 /* Wrapper — NOW SMALLER ON LAPTOP */
 .projects-wrapper {
-  width: 90%;
-  max-width: 650px; /* previously 900px → reduced */
+  width: 90%; /* previously 900px → reduced */
   margin: auto;
 }
 
 /* For larger laptop screens */
 @media (min-width: 1024px) {
   .projects-wrapper {
-    max-width: 550px; /* PERFECT laptop width */
+    max-width: 90%; /* PERFECT laptop width */
   }
-}
-
-/* Interactive Card */
-.project-card {
-  background: #ffffff;
-  border-radius: 15px;
-  padding: 1.5rem;
-  margin-bottom: 5rem;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
-  transition: all 0.3s ease;
-  cursor: pointer;
-  transform-style: preserve-3d;
 }
 
 /* Hover Animation */
@@ -50,18 +68,17 @@
   font-size: 1.4rem;
   padding-bottom: 10px;
   margin-bottom: 15px;
-  border-bottom: 3px solid #000;
   font-weight: 600;
+  color: #42e1f6 !important;
+  text-decoration: underline double #42e1f6;
 }
 
 /* Project Image */
 .project-image {
   width: 100%;
-  height: 260px;
   border-radius: 10px;
   object-fit: contain;
   background: #f8f8f8;
-  padding: 8px;
   transition: transform 0.3s ease;
 }
 
@@ -103,10 +120,6 @@
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
-  .project-image {
-    height: 200px;
-  }
-
   .project-buttons {
     flex-direction: column;
   }
@@ -114,8 +127,41 @@
   .project-btn {
     width: 100%;
   }
-
   .project-card {
-    padding: 1.2rem;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 8rem !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    height: 73vh;
+    width: 90vw;
+    padding: 0.5rem;
+  }
+  .projectBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 100%;
+    height: 90% !important;
+    padding: 0;
+  }
+  .projectDiv {
+    height: 40% !important;
+    width: 93% !important;
+  }
+  .imageDiv {
+    height: 36% !important;
+    width: 93% !important;
+  }
+  /* Project Image */
+  .project-image {
+    width: 100%;
+    border-radius: 6px;
+    object-fit: contain;
+    background: #f8f8f8;
+    transition: transform 0.3s ease;
   }
 }
