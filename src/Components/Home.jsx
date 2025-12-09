@@ -5,7 +5,7 @@ import "./Home.css";
 function Home() {
   return (
     <div className="d-flex flex-wrap justify-content-around homeBox">
-      <div className="card text-dark bg-light mb-1 fs-5 fs-xs-1 p-1 home-card">
+      <div className="card text-dark bg-light p-1 home-card">
         <div className="card-body">
           <h5 className="card-title">Hi, I’m Samarth Malhotra</h5>
           <p className="card-text">

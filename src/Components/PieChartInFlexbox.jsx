@@ -15,7 +15,7 @@ const margin = {
   top: 30,
   right: 40,
   left: 30,
-  bottom: 5,
+  bottom: 2,
 };
 // #endregion
 
@@ -24,7 +24,14 @@ export default function PieChartInFlexbox() {
     <div className="mb-lg-1 chartbox">
       <br />
       <br />
-      <h2 style={{ color: "#42e1f6", textAlign: "center", padding: "2rem" }}>
+      <h2
+        style={{
+          color: "#42e1f6",
+          textAlign: "center",
+          paddingTop: "6rem",
+          paddingBottom: "2rem",
+        }}
+      >
         Skills Chart
       </h2>
       <div

@@ -43,7 +43,7 @@
 @media (max-width: 768px) {
   .aboutBox {
     height: 100vh;
-    padding-top: 2rem;
+    padding-top: 6rem;
   }
   .aboutflex {
     display: flex;
