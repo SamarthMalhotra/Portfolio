@@ -23,7 +23,6 @@ const router = createBrowserRouter([
         path: "/projects",
         element: <Project />,
       },
-      { path: "/achivements", element: <Achivements /> },
     ],
   },
 ]);
