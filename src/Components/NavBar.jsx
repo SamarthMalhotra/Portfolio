@@ -8,7 +8,6 @@ function NavBar() {
   const [theme, setTheme] = useState("light-theme");
   const toggleButton = () => {
     theme === "light-theme" ? setTheme("dark-theme") : setTheme("light-theme");
-    console.log(theme);
   };
   //It is use to set the dark mode
   useEffect(() => {
