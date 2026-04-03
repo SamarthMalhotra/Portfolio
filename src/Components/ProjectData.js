@@ -24,5 +24,18 @@ let projectList = [
     ],
     video: "",
   },
+  {
+    sno: 3,
+    image:
+      "https://res.cloudinary.com/duryxhwcp/image/upload/q_auto/f_auto/v1775199282/Screenshot_2026-04-03_122028_lhbamw.png",
+    link: "https://ai-complain-manager-frontend.onrender.com/",
+    title: "AI-Based Customer Complain Management System",
+    description: [
+      "Developed an AI-based complaint management system to automate customer support workflows.",
+      "Integrated a conversational AI chatbot for automated complaint handling.",
+      "Implemented a CI/CD pipeline using GitHub Actions for automated deployment",
+    ],
+    video: "",
+  },
 ];
 export default projectList;

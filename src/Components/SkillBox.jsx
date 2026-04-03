@@ -5,12 +5,11 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { FaHtml5, FaBootstrap, FaJs, FaNodeJs } from "react-icons/fa6";
 import { BsFiletypeSql } from "react-icons/bs";
 import { IoLogoGithub, IoLogoCss3 } from "react-icons/io5";
-import { VscVscode } from "react-icons/vsc";
+import { TbBrandTypescript } from "react-icons/tb";
 import { RiReactjsFill } from "react-icons/ri";
 import { BiLogoMongodb } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
-import { TbBrandRedux } from "react-icons/tb";
-
+import { TfiInfinite } from "react-icons/tfi";
 function SkillBox() {
   return (
     <div className="skillBox w-100">
@@ -40,6 +39,11 @@ function SkillBox() {
         <div className="skillItem card d-flex flex-row align-items-center">
           <FaJs className="skillIcon" style={{ color: "yellow" }} />
           <h4 className="skillTitle">JavaScript</h4>
+        </div>
+        {/* Type Script */}
+        <div className="skillItem card d-flex flex-row align-items-center">
+          <TbBrandTypescript className="skillIcon" style={{ color: "blue" }} />
+          <h4 className="skillTitle">TypeScript</h4>
         </div>
 
         {/* React */}
@@ -76,6 +80,11 @@ function SkillBox() {
         <div className="skillItem card d-flex flex-row align-items-center">
           <IoLogoGithub className="skillIcon" style={{ color: "black" }} />
           <h4 className="skillTitle">GitHub</h4>
+        </div>
+        {/* CI/CD */}
+        <div className="skillItem card d-flex flex-row align-items-center">
+          <TfiInfinite className="skillIcon" style={{ color: "black" }} />
+          <h4 className="skillTitle">CI/CD</h4>
         </div>
       </div>
     </div>
