@@ -2,7 +2,7 @@ let projectList = [
   {
     sno: 1,
     image:
-      "https://res.cloudinary.com/duryxhwcp/image/upload/v1763036699/Grow_AI_f4go2z.jpg",
+      "https://res.cloudinary.com/duryxhwcp/image/upload/v1779039789/Screenshot_2026-05-17_231254_fxygoy.png",
     link: "https://grow-ai.onrender.com/",
     title: "Grow AI(AI Chatbot)",
     description: [
